@@ -1,8 +1,3 @@
-    scenario,run,expected,endpoint_result,siem_result,rule_id,verdict,gap_code,action
-    SC-001,RUN-20260921-01,rule 5710 alert,journalctl shows Invalid user and Failed password lines,9 alerts level 5 agent 000,5710,true positive (own authorised test),G2 suspected: collector stall after VM freeze; root cause unproven,restarted wazuh-manager and retested successfully
-
-SC-002,RUN-20260923-01,rule matching T1059.001 (encoded PowerShell),Sysmon Event ID 1 powershell.exe with -EncodedCommand,1 alert rule 92057 level 12 mapped to T1059.001,92057,true positive (own authorised test),none (default rule covered it),no action needed
-
 scenario,run,expected,endpoint_result,siem_result,rule_id,verdict,gap_code,action
 SC-001,RUN-20260921-01,rule 5710 alert,journalctl shows Invalid user and Failed password lines,9 alerts level 5 agent 000,5710,true positive (own authorised test),G2 suspected: collector stall after VM freeze; root cause unproven,restarted wazuh-manager and retested successfully
 SC-002,RUN-20260923-01,rule matching T1059.001 (encoded PowerShell),Sysmon Event ID 1 powershell.exe with -EncodedCommand,1 alert rule 92057 level 12 mapped to T1059.001,92057,true positive (own authorised test),none (default rule covered it),no action needed
